@@ -1,4 +1,4 @@
-# Project Plan — Computational Pharmaceutics & AI
+﻿# Project Plan â€” Computational Pharmaceutics & AI
 **Researcher:** Muhammad Zubair | Rawalpindi, Pakistan  
 **Version:** v3.0 (Final)  
 **Date:** 2025-04-30
@@ -54,7 +54,7 @@ _Most published solubility prediction models lack rigorous applicability domain 
 
 ## 5. Metrics
 
-- RMSE, MAE, R² with 95% CI (format: `RMSE = 0.58 ± 0.03`)
+- RMSE, MAE, RÂ² with 95% CI (format: `RMSE = 0.58 Â± 0.03`)
 - Paired t-test / Wilcoxon between model pairs (p-values in Table 2)
 - Y-randomisation: 100 permutations, p-value reported
 
@@ -62,7 +62,7 @@ _Most published solubility prediction models lack rigorous applicability domain 
 
 ## 6. Applicability Domain
 
-- **Method 1:** Tanimoto similarity (thresholds 0.3, 0.4, 0.5) — cite OECD 2014
+- **Method 1:** Tanimoto similarity (thresholds 0.3, 0.4, 0.5) â€” cite OECD 2014
 - **Method 2:** Distance-based (Euclidean in descriptor space)
 - **AD Reliability Map:** residuals vs. Tanimoto (Figure 5)
 
@@ -70,7 +70,7 @@ _Most published solubility prediction models lack rigorous applicability domain 
 
 ## 7. Target Journal
 
-- **Primary:** AAPS PharmSciTech (no APC) — https://link.springer.com/journal/12249
+- **Primary:** AAPS PharmSciTech (no APC) â€” https://link.springer.com/journal/12249
 - **Fallback:** *(to be filled before Week 11)*
 
 ---
@@ -82,7 +82,7 @@ _Most published solubility prediction models lack rigorous applicability domain 
 | ESOL too small | Medium | Use Lipophilicity dataset (4,200 mols) as external validation |
 | SHAP RAM crash | Medium | 512 bits; `n_jobs=1`; run on X_test only |
 | Reviewer demands DL | Medium | 2-layer MLP already in pipeline |
-| RF / XGB R² < 0.60 | Low | Check NaN handling first |
+| RF / XGB RÂ² < 0.60 | Low | Check NaN handling first |
 | Novelty rejection | Medium | Benchmarking + ablation framing preempts this |
 
 ---
@@ -100,7 +100,7 @@ _Most published solubility prediction models lack rigorous applicability domain 
 
 ## 10. Competitor Models to Outperform
 
-*(Fill in after literature reading — Week 0, Task 4)*
+*(Fill in after literature reading â€” Week 0, Task 4)*
 
 1. ___________
 2. ___________
@@ -109,3 +109,4 @@ _Most published solubility prediction models lack rigorous applicability domain 
 ---
 
 *Plan v3.0 | Muhammad Zubair, Rawalpindi, Pakistan | 2025-04-30*
+
